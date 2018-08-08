@@ -21,6 +21,7 @@ public class SpringBootHelloWorldApplication {
 		ConsumerControllerClient consumerControllerClient=ctx.getBean(ConsumerControllerClient.class);
 		System.out.println(consumerControllerClient);
 		consumerControllerClient.getEmployee();
+		int life;
 		
 	}
 	
