@@ -16,7 +16,7 @@ public class SpringBootHelloWorldApplication {
 	public static void main(String[] args) throws RestClientException, IOException {
 		ApplicationContext ctx = SpringApplication.run(
 				SpringBootHelloWorldApplication.class, args);
-		int a;
+		int ranjeet;
 		
 		ConsumerControllerClient consumerControllerClient=ctx.getBean(ConsumerControllerClient.class);
 		System.out.println(consumerControllerClient);
